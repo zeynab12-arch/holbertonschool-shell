@@ -1,1 +1,3 @@
+#!/bin/bash
+awk '{ printf "%s", substr($0, 1, 1) } END { printf "\n" }'
 
