@@ -1,2 +1,3 @@
+GNU nano 6.2                                                                                        3-new_owner                                                                                                  
 #!/bin/bash
 chown betty hello
