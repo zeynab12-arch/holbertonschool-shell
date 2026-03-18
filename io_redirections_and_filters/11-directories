@@ -1,0 +1,2 @@
+#!/bin/bahs
+echo $(( $(find . -type d | wc -l) - 1 ))
