@@ -1,2 +1,6 @@
 #!/bin/bash
-chown --from=guillaume vincent hello
+# Changes the owner of the file hello to vincent only if it is owned by guillaume
+
+if [ "$(stat -c %U hello)" = "guillaume" ]; then
+  chown vincent hello
+fi
